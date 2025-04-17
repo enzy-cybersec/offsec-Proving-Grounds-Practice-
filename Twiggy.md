@@ -108,19 +108,26 @@ Finished
 ===============================================================
 
 Still this one is not useful when going to the web pages nothing interesting but two pages:
+![Pasted image 20250416152255](https://github.com/user-attachments/assets/d238a373-eb58-42a4-8b98-eaaf566ac537)
 
-![[Pasted image 20250416152255.png]]
+
 
 and page /användare :
-![[Pasted image 20250416152402.png]]
+![Uploading Pasted image 20250416152402.png…]()
 
-Googling the content of page one:
+Googling the content of page on
+![Pasted image 20250416152444](https://github.com/user-attachments/assets/bb914347-d35f-413c-bc00-0f7865211cee)
+e:
 
-![[Pasted image 20250416152444.png]]
-found this is a saltstack and then seached it for exploits:
 
-![[Pasted image 20250416152621.png]]
-so there is a existing exploit for this vulnerability
+found this is a saltstack and then searched it for exploits:
+![Pasted image 20250416152621](https://github.com/user-attachments/assets/135e7e7b-2641-4e81-b690-edbde1bd9990)
+
+
+so there is a existing exploit for this vulnerability:
+![Pasted image 20250416232408](https://github.com/user-attachments/assets/61ac2634-3591-4082-804f-41d5b83d955a)
+
+
 
 doing some research figured neet to install python3-salt 
 sudo pipx install salt
@@ -240,8 +247,9 @@ named:x:25:25:Named:/var/named:/sbin/nologin
 enzy:qefY5nveklizZBNTaycf1:0:0:root:/root:/bin/bash
 
 perfect it worked. Now let's ssh to the account:
+![Pasted image 20250416232423](https://github.com/user-attachments/assets/1ce04cc6-8587-4182-a76c-19f3f9c90362)
 
-![[Pasted image 20250416232549.png]]
+
 
 This was one of the ways. 
 another way is to upload webshell to the the targets /var/www/html directory using the found vulnerability and use that webshell to get a reverce shell and so on..
